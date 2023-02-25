@@ -57,32 +57,18 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/e1')
-def e1():
-    return render_template('empty.html')
-
-
-@app.route('/e2')
-def e2():
-    return render_template('empty.html')
-
-
-@app.route('/e3')
-def e3():
-    return render_template('empty.html')
-
-
-@app.route('/e4')
-def e4():
-    return render_template('empty.html')
-
-
-@app.route('/e5')
+@app.route('/!@#redrose!@#')
+@app.route('/6whiterose')
+@app.route('/***rockyou***')
+@app.route('/1hat3passw0rds')
+@app.route('/thunderbolt')
 def e5():
     return render_template('empty.html')
 
-
-@app.route('/found')
+@app.route('101010') #rockyou.txt
+@app.route('/~djh101010')
+# directory-list-lowercase-2.3-medium.txt, directory-list-2.3-medium.txt
+@app.route('/1101010702') #apache-user-enum-2.0.txt
 def found():
     return render_template('success.html')
 
@@ -90,4 +76,4 @@ def found():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8000)
+    app.run(host='0.0.0.0', port=8000)
