@@ -65,7 +65,7 @@ def home():
 def e5():
     return render_template('empty.html')
 
-@app.route('101010') #rockyou.txt
+@app.route('/101010') #rockyou.txt
 @app.route('/~djh101010')
 # directory-list-lowercase-2.3-medium.txt, directory-list-2.3-medium.txt
 @app.route('/1101010702') #apache-user-enum-2.0.txt
