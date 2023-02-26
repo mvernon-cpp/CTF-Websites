@@ -40,7 +40,7 @@ def login():
         count = cur.rowcount
 
         if count == 1:
-            return "SUCCESSFUL LOGIN.\n Here is the flag.\n FASTCTF{...}"
+            return "SUCCESSFUL LOGIN.<br> Here is the flag.</br><br> FASTCTF {Totodile}</br>"
         else:
             return render_template('signin.html')
 
