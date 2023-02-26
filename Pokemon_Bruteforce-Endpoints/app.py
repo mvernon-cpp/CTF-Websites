@@ -57,18 +57,26 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/!@#redrose!@#')
-@app.route('/6whiterose')
-@app.route('/***rockyou***')
-@app.route('/1hat3passw0rds')
-@app.route('/thunderbolt')
+# @app.route('/!@#redrose!@#')
+# @app.route('/6whiterose')
+# @app.route('/***rockyou***')
+# @app.route('/1hat3passw0rds')
+# @app.route('/thunderbolt')
+
+
+@app.route('/01')
+@app.route('/02')
+@app.route('/03')
+@app.route('/04')
+@app.route('/05')
 def e5():
     return render_template('empty.html')
 
-@app.route('/101010') #rockyou.txt
+
+@app.route('/101010')  # rockyou.txt
 @app.route('/~djh101010')
 # directory-list-lowercase-2.3-medium.txt, directory-list-2.3-medium.txt
-@app.route('/1101010702') #apache-user-enum-2.0.txt
+@app.route('/1101010702')  # apache-user-enum-2.0.txt
 def found():
     return render_template('success.html')
 
